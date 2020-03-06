@@ -1,0 +1,118 @@
+Disclosure: In December 2019, the Center for Economic and Policy Research (CEPR) contracted with the authors to see if the numerical and statistical results of CEPR’s November 2019 study could be independently verified. Any analysis and interpretation of findings in this report express the sole views of the authors, researchers at MIT Election Data and ScienceLab.
+
+
+
+On 20 October 2019, Bolivia held its third general election under its 2009 constitution. Nine presidential candidates competed in the presidential election, but early polling indicated a likely two-way race between President Evo Morales of the Movimiento al Socialismo (MAS-IPSP) and former president Carlos Mesa of Comunidad Ciudadana (CC).
+
+
+
+On the day of the election, the unofficial, preliminary count (trep) stopped at 7.40pm, with only around 84% of the tally sheets (actas) that would be counted in the official count (computo) counted. On 21 October at 6.29pm, after the OAS Electoral Observation Mission in Bolivia requested a resumption of the trep, electoral officials announced updated results with 95% of actas processed. Morales’ margin in the updated results exceeded 10 percentage points. The OAS released a statement expressing concern about a “change in the trend” between results before and after the stopping of the trep on 20 October.
+
+
+
+In the final tally of the computo, Morales’s margin of victory would rise to 10.56 percentage points over CC candidate Mesa. Bolivian presidential elections require a 10 percentage point lead over the runner-up, and the change in the margin of victory in favour of Morales following the trep interruption was characterised as surprising and of “deep concern” by the OAS, thereby creating the impression that fraud in favour of MAS-IPSP had likely taken place.
+
+
+Related article:
+ Long Read | The legacy of Mexican exile
+
+
+
+We find that Morales’s victory can be explained by his voter support before the preliminary vote count halted. Through three analyses of the vote prior to the cutoff at 84% of the vote count, we find the final result can be explained by a pattern in the vote count prior to the cutoff of the trep. Therefore, we cannot find quantitative evidence of an irregular trend as claimed by the OAS.
+
+
+
+The trend for MAS-IPSP before the cutoff matches the final count
+
+
+
+Figure 1 plots the margin for MAS-IPSP by the percent of the final vote verified for the presidential and legislative elections. Earlier in the vote count and prior to the stopping of the trep, there was a trend in the presidential vote count in favour of MAS-IPSP. As seen, despite early results in favour of CC, the margin for MAS-IPSP began to rise as early as 10% of the way through the vote count.
+
+
+
+Following 20% of the vote, the trend in favour of MAS-IPSP is constant. Further, early vote reporting is highly variable as the number of actas is extremely low.
+
+
+
+
+
+
+
+Further, the results seen in the trep are mirrored in the computo, which saw no interruption in the verification of vote totals. Figure 2 displays how votes in the legislative election and presidential election initially favoured CC, but as more votes were counted they began to favour MAS-IPSP.
+
+
+
+
+
+
+
+Precincts with actas remaining favoured Morales’ MAS-IPSP
+
+
+
+The goal of this study is to determine the extent to which the final vote results for Morales can be explained from analysing the first 84% of precincts alone. In this analysis, we would expect that the margin of victory for Morales would be similar in actas within the same precinct whether they were verified before or after the closing of the preliminary count.
+
+
+
+When the trep halted, precincts with actas remaining to be counted already highly favoured Morales. Figure 3 shows that the precincts with actas remaining on average supported Morales by a 19.8 percentage point margin before the cutoff.
+
+
+
+
+
+
+
+The margin in the right column of Figure 3 is an average by precinct and does not account for the varying size of precincts, nor does it account for the small percentage of precincts with no actas counted before the interruption. Given that, we thought it would be useful to see individual trends in reporting for precincts before and after the halting of the trep. 58.11% (N=2 805) of precincts reported all actas before the cutoff, 11.29% (N=545) of precincts reported no actas before the cutoff and 30.59% (N=1 477) of precincts reported actas both before and after the cutoff.
+
+
+
+Figure 4 analyses those precincts that reported both before and after the halting of the trep. There is a strong relationship within precincts between voting margins reported before and after the cutoff, with the change in the trend nearly intersecting at zero in the figure. This provides a strong indication that within precincts there was no clear change in favour of a single party after the trep interruption.
+
+
+
+Despite no change in the parties’ margins before and after the cutoff, we do see an increase in the overall margin for Morales in this group from 7.29 percentage points before the cutoff to 20.12 percentage points after the cutoff. This results from three trends in the group of precincts that reported before and after the cutoff. First, CC-favouring precincts on average reported 41% more votes than Morales-favouring precincts prior to the cutoff, while those Morales-favouring precincts reported 7% more after the cutoff. Of the 1 477 precincts that reported before and after the cutoff, 66% of those precincts favoured Morales. Finally, precincts favouring Morales supported him on average by 46 percentage points, while those favouring CC did so only by around 28 percentage points both before and after the cutoff.
+
+
+
+
+
+
+
+Considering the strong relationship between precinct margins, we estimate the margin of votes verified after the interruption based on the actas that were counted before the interruption from the same precincts. We estimate Morales’ margin in the 13.78% of votes in those actas to be 19.12 percentage points. We can therefore estimate an increase in Morales’ margin by 1.59 percentage points, from 7.87 at 84% of final vote counted to 9.46 percentage points at 97.78% of vote counted.
+
+
+
+Unfortunately, we cannot make this comparison for precincts that had no actas reported at the time the trep stopped. If we isolate the results from precincts that were reported only after the 84% cutoff, we arrive at a dataset that is 2.22% of the vote remaining in the presidential vote. If we add the 2.22% of vote remaining in the final count to our calculated margin, we find that Morales needed a 27.68 percentage point margin over Mesa in that final 2.22% to surpass the 10 percent margin and avoid a runoff.
+
+
+
+
+
+
+
+Conclusion
+
+
+
+The OAS’s claim that the stopping of the trep during the Bolivian election produced an oddity in the voting trend is contradicted by the data. While there was a break in the reporting of votes, the substance of those later-reporting votes could be determined prior to the break.
+
+
+Related article:
+ Bolivia: Why the corporate media won’t call it a coup﻿
+
+
+
+Therefore, we cannot find results that would lead us to the same conclusion as the OAS. We find it is very likely that Morales won the required 10 percentage point margin to win in the first round of the election on 20 October 2019.
+
+
+
+John Curiel is a research scientist with MIT’s Election Data and Science Lab. He earned his PhD in political science from the University of North Carolina at Chapel Hill.
+
+
+
+Jack R Williams is a researcher with MIT’s Election Data and Science Lab.
+
+
+
+This article is republished from CounterPunch.
+If you want to republish this article please read our guidelines.Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)
