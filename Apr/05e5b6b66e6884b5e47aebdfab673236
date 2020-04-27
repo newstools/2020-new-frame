@@ -1,0 +1,702 @@
+Since the coronavirus showed its proclivity for transmission across borders and made its way to South Africa in early March, the figures on everybody’s lips have been the regular announcements of infections and deaths. But a different set of figures published last week by the United Nations University (UNU) have revealed new symptoms of a more chronic South African illness – inequality.
+
+
+
+Thanks to a paper authored by Aroop Chatterjee from the Southern Centre for Inequality Studies, and Amory Gethin and Léo Czajka from the World Inequality Lab, South Africa now has its first reliable estimate of how unequally wealth is distributed in the country. The new research has brought to light the staggering reality of how much is owned in South Africa, and just how few people actually own it.
+
+
+
+Some headline findings include the fact that, on average, the most impoverished half of the South African adult population – some 17.7 million people – owe more than they own. This means that if they were to sell everything they own, they would still be in debt.
+
+
+
+
+  #wealth-inequality-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+  #wealth-inequality-wrapper #intro {
+    width: 100%;
+    flex-basis: 100%;
+    border-top: 1px solid #e7e7e7;
+    padding: 4px;
+  }
+  #wealth-inequality-container {
+    position: relative;
+    width: 100%;
+    flex-basis: 100%;
+    padding-top: 50%;
+  }
+  [id*=w-e-circle] {
+    position: absolute;
+    border-radius: 50%;
+  }
+  [id*=w-e-circle] span {
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    font-size: 20px;
+    line-height: 1.6;
+    position: absolute;
+    top: calc(50% - 45px);
+    left: -25%;
+    width: 150%;
+    margin: 0 auto;
+    text-shadow: 0 0 4px black;
+  }
+  [id*=w-e-circle] span small {
+    line-height: 1;
+  }
+  #w-e-circle-50 span {
+    top: -100px;
+    left: -100px;
+    width: 100px;
+    color: black;
+    text-shadow: none;
+    text-align: center;
+  }
+  @media screen and (max-width: 1440px) {
+    [id*=w-e-circle] span {
+      font-size: 16px;
+      top: calc(50% - 35px);
+    }
+  } 
+  @media screen and (max-width: 768px) {
+    [id*=w-e-circle] span {
+      font-size: 14px;
+      top: calc(50% - 35px);
+    }
+  } 
+  #w-e-circle-0-01 {
+    top: 20%;
+    left: 5%;
+    z-index: 700;
+    width: 7.45%;
+    height: 14.9%;
+    background-color: #666666;
+  } 
+  #w-e-circle-10 {
+    top: 0;
+    left: 0;
+    width: 42.8%;
+    height: 85.6%;
+    background-color: #8F0C00;
+  }
+  #w-e-circle-90 {
+    top: 50%;
+    right: 30%;
+    width: 7.2%;
+    height: 14.4%;
+    background-color: #550B05;
+  }
+  #w-e-circle-50 {
+    bottom: 8px;
+    right: 8px;
+    width: 1%;
+    height: 2%;
+    background-color: #333333;
+  }
+
+
+  
+    Wealth by % of population
+  
+  
+    
+      
+        
+          
+            Top 0.01%own14.9%
+          
+          
+            Top 10%own85.6%
+          
+          
+            Bottom 90%own14.4%
+          
+          
+            Bottom 50%own-2.5%
+          
+        
+        
+          Bottom 90% (32 million people) own 14.4% of the wealth.The top 0.01% (3500 people) own 14.9% of the wealth.The bottom 50% (18 million people) owns -2.5% of the wealth.The top 10% owns 85.6% of all wealth. The remaining 90% owns 14.4% of all wealth.
+        
+      
+    
+  
+And while the top 10% of the population owns around 86% of all the country’s wealth, the picture is about more than the top and the bottom. Some of the most damning findings concern how concentrated wealth is within the top 10%. The wealthiest 3 500 people (0.01% of the adult population), for instance, own more than the most impoverished 32 million people.Inequality is about more than incomeWhen South Africa is called the world’s most unequal society, it is usually a reference to the country’s income inequality – the disparities between what people may be earning.A scale between 0 and 1 called the Gini coefficient is usually used to measure this. It works like this: the closer a score is to 1, the greater the income inequality. So, in a country where the score is 0, everybody earns exactly the same. Perfect equality. In a country with a score of 1, one person earns everything, and everybody else earns nothing. Absolute inequality. South Africa’s Gini coefficient is 0.65 – a staggering score by any international comparison.Wealth, however, is typically more unequally distributed than income. Where the top 10% of South Africans earn up to 65% of all income, the research finds that they own 85.6% of all wealth.Related article: Freedom not yetBut what is wealth? Basically, it is a stock of assets – including land, deposits, shares in companies, life insurance policies and pensions – built up over time and often passed down over generations. As a result, wealth reveals inherited economic privileges in ways that income cannot.In a country like South Africa, still newly emerged from white minority rule, understanding how advantage is inherited is crucial. Wealth inequality, according to Chatterjee, shows “how apartheid’s legacy manifests into the present”, and the persistent chasm between how much people own might suggest “that the structures of the economy have not been changed sufficiently to be more inclusive.”
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    #comparitive-top-10 th {
+	background-color: #0d161a;	
+	color: white;
+	text-align: left;
+	padding: 4px;
+	font-family: "pt serif", serif;
+    }
+    #comparitive-top-10 td {
+      width: 25%;
+      border: 1px solid #e7e7e7;
+      padding: 0;
+    }
+    .comparison-table-wrapper {
+      display: flex;
+    }
+    .comparison-table-wrapper > * {
+      width: 25%;
+      flex-basis: 25%;
+      border-right: 1px solid #e7e7e7;
+    }
+    .comparison-table-wrapper > * > * {
+      padding: 4px;
+    }
+    #comparitive-top-10 .label {
+      border-bottom: 1px solid #e7e7e7;
+    }
+    #comparitive-top-10 .value {
+      font-size: 32px;
+      font-weight: 700;
+      font-family: "PT Serif", serif;
+      color: #8F0C00;
+    }
+    #comparitive-top-10 img.map {
+      max-height: 20vh;
+      width: auto;
+      max-width: 100%;
+      margin: 0 auto;
+    }
+    @media screen and (max-width: 768px) {
+      .comparison-table-wrapper > * {
+        width: 33.333%;
+        flex-basis: 33.333%;
+      }
+      .comparison-table-wrapper {
+        flex-wrap: wrap;
+      }
+      .comparison-table-wrapper #year-select {
+        width: 100%;
+        flex-basis: 100%
+      }
+      #comparitive-top-10 .spacer {
+        display: none;
+      }
+      #comparitive-top-10 img.map {
+        display: none;
+      }
+      #comparitive-top-10 .country .label {
+        font-weight: 700;
+      }
+    }
+
+  
+    
+     
+       South African wealth inequality in comparative perspective
+     
+    
+    
+      
+        
+          
+            Select a year
+            
+            19931994199519961997199819992000200120022003200420052006200720082009201020112012201320142015
+            
+          
+          
+            South Africa
+            
+          
+          
+            Top 10%
+            87%
+          
+          
+            Bottom 50%
+            -3%
+          
+        
+      
+    
+    
+      
+        
+            
+          
+          
+            Russia
+            
+          
+          
+            Top 10%
+            71%
+          
+          
+            Bottom 50%
+            3%
+          
+        
+      
+    
+    
+      
+        
+            
+          
+          
+            China
+            
+          
+          
+            Top 10%
+            67%
+          
+          
+            Bottom 50%
+            6%
+          
+        
+      
+    
+    
+      
+        
+            
+          
+          
+            United State of America
+            
+          
+          
+            Top 10%
+            
+          
+          
+            Bottom 50%
+            3%
+          
+        
+      
+    
+  
+
+    var dt = document.getElementById('date-trigger');
+    var compDate = dt.options[dt.selectedIndex].value;
+    var saTop = '87%';
+    var saBot = '-3%';
+    var russiaTop = '71%';
+    var russiaBot = '3%';
+    var chinaTop = '67%';
+    var chinaBot = '6%';
+    var usTop = '';
+    var usBot = '3%';
+
+    var saTopTen = document.getElementById('sa-top-ten');
+    var saBotFif = document.getElementById('sa-bottom-fifty');
+    var ruTopTen = document.getElementById('ru-top-ten');
+    var ruBotFif = document.getElementById('ru-bottom-fifty');
+    var chTopTen = document.getElementById('ch-top-ten');
+    var chBotFif = document.getElementById('ch-bottom-fifty');
+    var usTopTen = document.getElementById('us-top-ten');
+    var usBotFif = document.getElementById('us-bottom-fifty');
+    saTopTen.innerHTML = saTopTen.innerHTML = saTop;
+    saBotFif.innerHTML = saBotFif.innerHTML = saBot;
+    ruTopTen.innerHTML = ruTopTen.innerHTML = russiaTop; 
+    ruBotFif.innerHTML = ruBotFif.innerHTML = russiaBot;
+    chTopTen.innerHTML = chTopTen.innerHTML = chinaTop;
+    chBotFif.innerHTML = chBotFif.innerHTML = chinaBot;
+    usTopTen.innerHTML = usTopTen.innerHTML = usTop;
+    usBotFif.innerHTML = usBotFif.innerHTML = usBot;
+
+    dt.addEventListener("change", function() { 
+      var compDate = dt.options[dt.selectedIndex].value;
+      
+      if ( compDate == 1993 ) {
+        var saTop = '86%';
+        var russiaTop = '';
+        var chinaTop = '41%';
+        var usTop = '65%';
+        var saBot = '-1%';
+        var russiaBot = '';
+        var chinaBot = '16%';
+        var usBot = '';
+      } else if ( compDate == 1994 ) {
+        var saTop = '86%';
+        var russiaTop = '';
+        var chinaTop = '41%';
+        var usTop = '66%';
+        var saBot = '-2%';
+        var russiaBot = '';
+        var chinaBot = '16%';
+        var usBot = '';
+      } else if ( compDate == 1995 ) {
+        var saTop = '86%';
+        var russiaTop = '53%';
+        var chinaTop = '41%';
+        var usTop = '66%';
+        var saBot = '-5%';
+        var russiaBot = '9%';
+        var chinaBot = '16%';
+        var usBot = '9%';
+      } else if ( compDate == 1996 ) {
+        var saTop = '86%';
+        var russiaTop = '54%';
+        var chinaTop = '43%';
+        var usTop = '66%';
+        var saBot = '-5%';
+        var russiaBot = '8%';
+        var chinaBot = '15%';
+        var usBot = '8%';
+      } else if ( compDate == 1997 ) {
+        var saTop = '85%';
+        var russiaTop = '60%';
+        var chinaTop = '45%';
+        var usTop = '67%';
+        var saBot = '-4%';
+        var russiaBot = '7%';
+        var chinaBot = '15%';
+        var usBot = '7%';
+      } else if ( compDate == 1998 ) {
+        var saTop = '84%';
+        var russiaTop = '62%';
+        var chinaTop = '46%';
+        var usTop = '68%';
+        var saBot = '-4%';
+        var russiaBot = '7%';
+        var chinaBot = '15%';
+        var usBot = '7%';
+      } else if ( compDate == 1999 ) {
+        var saTop = '84%';
+        var russiaTop = '66%';
+        var chinaTop = '47%';
+        var usTop = '69%';
+        var saBot = '-2%';
+        var russiaBot = '6%';
+        var chinaBot = '14%';
+        var usBot = '6%';
+      } else if ( compDate == 2000 ) {
+        var saTop = '84%';
+        var russiaTop = '65%';
+        var chinaTop = '48%'; 
+        var usTop = '69%';
+        var saBot = '-2%';
+        var russiaBot = '6%';
+        var chinaBot = '14%';
+        var usBot = '6%';
+      } else if ( compDate == 2001 ) {
+        var saTop = '83%';
+        var russiaTop = '67%';
+        var chinaTop = '48%';
+        var usTop = '68%';
+        var saBot = '-1%';
+        var russiaBot = '6%';
+        var chinaBot = '14%';
+        var usBot = '6%';
+      } else if ( compDate == 2002 ) {
+        var saTop = '83%';
+        var russiaTop = '64%';
+        var chinaTop = '49%';
+        var usTop = '68%';
+        var saBot = '0%';
+        var russiaBot = '6%';
+        var chinaBot = '14%';
+        var usBot = '6%';
+      } else if ( compDate == 2003 ) {
+        var saTop = '82%';
+        var russiaTop = '67%';
+        var chinaTop = '49%';
+        var usTop = '68%';
+        var saBot = '0%';
+        var russiaBot = '6%';
+        var chinaBot = '14%';
+        var usBot = '6%';
+      } else if ( compDate == 2004 ) {
+        var saTop = '82%';
+        var russiaTop = '67%';
+        var chinaTop = '51%';
+        var usTop = '69%';
+        var saBot = '0%';
+        var russiaBot = '6%';
+        var chinaBot = '13%';
+        var usBot = '6%';
+      } else if ( compDate == 2005 ) {
+        var saTop = '83%';
+        var russiaTop = '66%';
+        var chinaTop = '52%';
+        var usTop = '69%';
+        var saBot = '0%';
+        var russiaBot = '6%';
+        var chinaBot = '13%';
+        var usBot = '6%';
+      } else if ( compDate == 2006 ) {
+        var saTop = '85%';
+        var russiaTop = '64%';
+        var chinaTop = '54%';
+        var usTop = '69%';
+        var saBot = '-1%';
+        var russiaBot = '6%';
+        var chinaBot = '12%';
+        var usBot = '6%';
+      } else if ( compDate == 2007 ) {
+        var saTop = '88%';
+        var russiaTop = '64%';
+        var chinaTop = '56%'; 
+        var usTop = '70%';
+        var saBot = '-4%';
+        var russiaBot = '6%';
+        var chinaBot = '12%';
+        var usBot = '6%';
+      } else if ( compDate == 2008 ) {
+        var saTop = '91%';
+        var russiaTop = '66%';
+        var chinaTop = '57%';
+        var usTop = '73%';
+        var saBot = '-8%';
+        var russiaBot = '5%';
+        var chinaBot = '12%';
+        var usBot = '5%';
+      } else if ( compDate == 2009 ) {
+        var saTop = '90%';
+        var russiaTop = '63%';
+        var chinaTop = '58%';
+        var usTop = '74%';
+        var saBot = '-8%';
+        var russiaBot = '5%';
+        var chinaBot = '11%';
+        var usBot = '5%';
+      } else if ( compDate == 2010 ) {
+        var saTop = '90%';
+        var russiaTop = '66%';
+        var chinaTop = '63%';
+        var usTop = '74%';
+        var saBot = '-7%';
+        var russiaBot = '3%';
+        var chinaBot = '7%';
+        var usBot = '3%';
+      } else if ( compDate == 2011 ) {
+        var saTop = '90%';
+        var russiaTop = '68%';
+        var chinaTop = '67%';
+        var usTop = '74%';
+        var saBot = '-6%';
+        var russiaBot = '3%';
+        var chinaBot = '7%';
+        var usBot = '3%';
+      } else if ( compDate == 2012 ) {
+        var saTop = '89%';
+        var russiaTop = '68%';
+        var chinaTop = '67%';
+        var usTop = '74%';
+        var saBot = '-5%';
+        var russiaBot = '4%';
+        var chinaBot = '7%';
+        var usBot = '4%';
+      } else if ( compDate == 2013 ) {
+        var saTop = '88%';
+        var russiaTop = '68%';
+        var chinaTop = '67%';
+        var usTop = '73%';
+        var saBot = '-4%';
+        var russiaBot = '4%';
+        var chinaBot = '7%';
+        var usBot = '4%';
+      } else if ( compDate == 2014 ) {
+        var saTop = '87%';
+        var russiaTop = '68%';
+        var chinaTop = '67%';
+        var usTop = '73%';
+        var saBot = '-3%';
+        var russiaBot = '4%';
+        var chinaBot = '7%';
+        var usBot = '4%';
+      } else if ( compDate == 2015 ) {
+        var saTop = '87%';
+        var russiaTop = '71%';
+        var chinaTop = '67%';
+        var usTop = '';
+        var saBot = '-3%';
+        var russiaBot = '3%';
+        var chinaBot = '6%';
+        var usBot = '3%';
+      } 
+      
+      var saTopTen = document.getElementById('sa-top-ten');
+      var saBotFif = document.getElementById('sa-bottom-fifty');
+      var ruTopTen = document.getElementById('ru-top-ten');
+      var ruBotFif = document.getElementById('ru-bottom-fifty');
+      var chTopTen = document.getElementById('ch-top-ten');
+      var chBotFif = document.getElementById('ch-bottom-fifty');
+      var usTopTen = document.getElementById('us-top-ten');
+      var usBotFif = document.getElementById('us-bottom-fifty');
+      saTopTen.innerHTML = saTopTen.innerHTML = saTop;
+      saBotFif.innerHTML = saBotFif.innerHTML = saBot;
+      ruTopTen.innerHTML = ruTopTen.innerHTML = russiaTop; 
+      ruBotFif.innerHTML = ruBotFif.innerHTML = russiaBot;
+      chTopTen.innerHTML = chTopTen.innerHTML = chinaTop;
+      chBotFif.innerHTML = chBotFif.innerHTML = chinaBot; 
+      usTopTen.innerHTML = usTopTen.innerHTML = usTop;
+      usBotFif.innerHTML = usBotFif.innerHTML = usBot; 
+    });
+
+
+
+
+Wealth is about more than generational privilege, however. Job opportunities, for instance, are determined by, among others, people’s education, living standards and their access to transport. All of these are heavily influenced by their wealth.
+
+
+
+Wealth during a pandemic
+
+
+
+Disparities in South African wealth are an entrenched, structural problem. But understanding them may never have been as pressing.
+
+
+
+The coronavirus has shone an unforgiving light on the country’s heavily skewed economy, and nowhere more so than its wealth disparities. According to Chatterjee, “people with wealth are able to survive the income shocks of the Covid-19 lockdown. They have property, buy food stocks easily from their savings, have [the] types of jobs that can be done at home, and so can self-isolate easily. As a result, they are less likely to be infected. The staggering inequalities in wealth, for me, indicate who shoulders the burden of this pandemic.”
+
+
+
+Explanations for exactly why inequality remains such a dogged feature of modern economies remain scant. For Chatterjee, this is because of a “lack of focus and analysis of wealth inequality in contemporary economics – and the social forces that maintain it – as the central pillar of understanding pervasive economic inequality”.
+
+
+Related article:
+ Covid-19 stimulus package is a missed opportunity
+
+
+
+When the Davis Tax Committee was instituted in 2013, part of its work was to explore a South African wealth tax. It found that, while wealth is an important conversation in South Africa, we don’t know enough yet about how it works to make proposals on taxing it.
+
+
+
+That’s because, until now, it has been difficult to measure how South Africa’s wealth is concentrated due to weaknesses in available data. There are, for example, mismatches between survey-level data (which captures information about how much wealth is owned by individuals) and macro-level data (which shows how much wealth exists in the economy at large). Data from surveys relies on respondents’ answers to questions, and so there are considerable gaps. For one, as little as 4% of the bonds and stocks held in the economy are reflected in survey data. For another, wealthy people tend to be dishonest in surveys.
+
+
+
+But the UNU paper has leveraged newly available tax administrative data to take the first step to filling the gap identified by the Davis Tax Committee. Its findings go beyond the levels and disparities of wealth in South Africa. It also shows how wealth is made up, which will be central to any policies designed to undo wealth inequality.
+
+
+
+
+  
+   The composition of assets by wealth group in 2017
+  
+  
+    
+        
+          
+            var ctx = document.getElementById('wealth-by-assets').getContext('2d');
+            var chart = new Chart(ctx, {
+              // The type of chart we want to create
+              type: 'bar',
+
+              // The data for our dataset
+              data: {
+                labels: ['Top 0.01%',
+                         'Bottom 5%',
+                ],
+                datasets: [{
+                  label: 'Currency',
+                  backgroundColor: '#550B05',
+                  borderColor: '#550B05',
+                  data: [
+                    0.011643, 
+                    61.63152, 
+                  ],
+                }, 
+                {
+                  label: 'Owner housing',
+                  backgroundColor: '#666666',
+                  borderColor: '#666666',
+                  data: [
+                    0.0813733, 
+                    0.68623, 
+                ],
+              }, 
+              {
+                label: 'Tenant housing',
+                backgroundColor: '#8F0C00',
+                borderColor: '#8F0C00',
+                data: [
+                  1.7106397, 
+                  0, 
+                ],
+              }, 
+              {
+                label: 'Business',
+                backgroundColor: '#333333',
+                borderColor: '#333333',
+                data: [
+                  0.935232, 
+                  17.38312, 
+                ],
+              },
+              {
+                label: 'Pension',
+                backgroundColor: '#C17B73',
+                borderColor: '#C17B73',
+                data: [
+                  1.309499, 
+                  20.29913, 
+                ],
+              },
+              {
+                label: 'Stock',
+                backgroundColor: '#000000',
+                borderColor: '#000000',
+                data: [
+                  95.951613, 
+                  0, 
+                ],
+              }]
+            },
+
+            // Configuration options go here
+            options: { 
+              responsive: true, 
+              aspectRatio: 2, 
+            }
+          });
+        
+    
+  
+
+
+
+
+It shows, for instance, that wealth in South Africa has changed. Where the super wealthy may once have dealt in real-world assets – land and housing, for instance – they now deal largely in financial assets. While the most impoverished people in South Africa own little more than hard cash, the top 10% owns more than 99% of all bonds and stock held in the economy. The wealthiest 1% alone owns around 90% of the country’s bonds and corporate shares.
+If you want to republish this article please read our guidelines.Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)
