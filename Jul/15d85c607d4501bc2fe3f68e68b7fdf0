@@ -1,0 +1,147 @@
+The fear of contracting Covid-19 is the major reason why some people, especially those who are impoverished, have reported a hesitance to access healthcare during the pandemic. In addition to other challenges, including a shortage of medication, they have said they fear being arrested while travelling during the lockdown and are struggling to pay for transport to and from hospitals and clinics.
+
+
+
+This has emerged from a national panel survey revealing that Covid-19 and the measures put in place by the government to control its spread have resulted in a gruelling struggle for non-Covid-19 patients to access healthcare.
+
+
+
+The survey, known as the National Income Dynamics Study: Coronavirus Rapid Mobile Survey, was released on 15 July and comprises 11 research papers. One of these looked at the various patient profiles and asked participants questions relating to their access to condoms, contraceptives, vaccines, antenatal care, acute care and chronic illness medication during the pandemic.
+
+
+Related article:
+ Starvation will kill faster than the virus
+
+
+
+The results have flagged a major concern for the researchers. Nine percent of the participants reported that, prior to the study, they needed acute healthcare, which is described as care for patients with injuries, illnesses or an urgent medical condition. Of the 9% reported to need such care, 22% said they did not visit a clinic or a hospital. The survey estimates that there has been a 33% rise in neglect of patients who require acute healthcare.
+
+
+
+A further concern has emerged from patients with chronic illnesses such as heart and lung conditions, diabetes, tuberculosis (TB) and HIV, with 18% saying they needed to see a healthcare worker for their illnesses. Out of 7 073 participants, 1 524 reported to have a chronic illness, and although the majority of the individuals did receive healthcare, 79 participants did not.
+
+
+
+There are those who did not collect their medication or receive a routine checkup at a health facility. Out of the participants who were surveyed, 23% reported that in the past four months they were unable to access medication, condoms or other contraceptives. 
+
+
+
+A high number of people who reported an inability to access medication and contraceptives were among those who are also chronically ill. Additionally, access to healthcare dramatically affected the impoverished and those without medical insurance.
+
+
+
+Long-term effects 
+
+
+
+Provincial health departments across South Africa have raised concerns about the reduction in medication collection by patients since the country went into lockdown. In May, the Gauteng Department of Health announced that there were 12 000 HIV and TB patients who had not collected their lifesaving medication. The department said it was using ward-based outreach teams to track and trace these patients.
+
+
+
+Any interruptions in antiretroviral (ARV) therapy or TB treatment have long-term effects on the patient and the health system. When an HIV-positive patient fails to take ARVs, whether for a short or long period of time, it gives the virus a chance to multiply as the treatment plays a significant role in suppressing the viral load in the blood.   
+
+
+
+The Joint United Nations programme on HIV and Aids, UNAIDS, has painted a bleak picture of what could happen if sub-Saharan Africa fails to put measures in place to ensure that patients do not default on treatment. In May, the organisation released a modelling exercise which estimates that if there were to be any interruptions to healthcare services and the supply of HIV treatment for six months in sub-Saharan Africa, there could be more than half a million extra deaths from Aids-related illnesses, including TB, over the following year.
+
+
+Related article:
+ Sustained HIV and TB care good for Covid-19 fight
+
+
+
+During a social cluster briefing on 13 July, Minister of Health Zweli Mkhize acknowledged that there had been a reduction in the number of people who accessed basic health services, such as testing for HIV or TB. “We need to get that corrected because we are going to live with this infection [Covid-19] for a longer time. We also know that the other diseases are still as important and still cause morbidity or death if they are not controlled,” he said. 
+
+
+
+Mkhize stressed how important it is that patients who need to go to any health facility for services not related to Covid-19 continue to do so. He said hospitals and clinics have a strategy that separates patients with flu-like symptoms from the rest, and encouraged patients to collect their long-term prescriptions as this can limit their need to move around and expose themselves to Covid-19.  
+
+
+
+Women and mothers affected
+
+
+
+Out of 3 140 women who participated in the survey, the majority visited a health facility in June. However, 16% of women reported that the last time they had visited a health facility was in April. This indicates that there was a two-month interval in receiving healthcare. In this case, the fear of contracting Covid-19 was the main reason women did not access healthcare for themselves or their infants.
+
+
+
+The survey estimates that there is a 56% decrease in healthcare for mothers who participated in the survey. 
+
+
+
+The authors of one of the research papers, Ronelle Burger, Lungiswa Nkonki, Russell Rensburg, Anja Smith and Cari van Schalkwyk, calculated that women who did not access healthcare owing to the fear of Covid-19 could have done so if there was no pandemic.
+
+
+
+“It may be an overestimate because it is not clear whether all of the women who cite coronavirus fears would have visited the clinic under more normal circumstances. But, on the other hand, some of the other cited constraints such as transport problems may also have been affected by the lockdown and the reduced levels of economic activity during these months,” the authors say. 
+
+
+
+Out of 3 047 women who answered questions on ARV treatment, also known as ART, 1 610 mentioned that they required it. Of these women, 175 said they had run out of ARVs. When a pregnant woman’s treatment is interrupted, the risk of transmitting the virus to her child is increased. 
+
+
+
+
+
+
+
+Reasons why new and expecting mothers did not access healthcare 
+
+
+
+
+
+
+  var ctx = document.getElementById('mothers-health-graph').getContext('2d');
+  var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+    // The data for our dataset
+    data: {
+      labels: ['Afraid of getting Coronavirus', 'No ART available', 'Waiting time', 'Transport problems', 'No need', 'Don\'t want to answer' ],
+      datasets: [{
+        label: 'Reasons for running out of antiretroviral treatments (number of respondents)', 
+        backgroundColor: '#8f0c00',
+        borderColor: '#8f0c00',
+        data: [40, 21, 15, 0, 21, 4],
+      }, {
+        label: 'Reasons for not visiting clinic (number of respondents)',
+        backgroundColor: '#bb7666',
+        borderColor: '#bb7666',
+        data: [11, 6, 37, 30, 16, 1],
+      }]  
+    },
+    // Configuration options go here
+    options: { 
+      responsive: true, 
+      aspectRatio: 2, 
+    }
+  });
+
+
+
+
+Sources: MATCH and MATCH Wave 1 2020
+
+
+
+
+“For the same reason we would expect ART adherence to be considerably higher for this group than for others, and therefore consider this to be an underestimate of ART interruptions among the full population,” the authors say.
+
+
+
+Among the reasons mothers failed to receive ART, 21% reported a shortage of drugs. There has been an estimated 62% increase in ART interruption because of the pandemic.
+
+
+
+These healthcare interruptions may be exacerbated by the rise in Covid-19 cases, explain the authors. The positive cases do not only affect the public but also healthcare workers, many of whom get ill, and health facilities, which at times are shut down when there is a high infection rate among staff members. 
+
+
+
+A global issue 
+
+
+
+It is not only in South Africa where the coronavirus has had adverse effects on the health system as a whole. In England, for example, the pressures imposed on hospitals has created a backlog in treatments not related to Covid-19. During March and April, there was a drop in referrals for cancer treatment although a significant number of patients started treatment.
+If you want to republish this article please read our guidelines.Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)
