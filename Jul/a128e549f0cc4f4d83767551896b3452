@@ -1,0 +1,312 @@
+South Africa’s largest non-medical research project on Covid-19 shows that the pandemic has deepened chronic unemployment and poverty, while exposing the extent of the government’s failure to protect people from these hardships.
+
+
+
+Economic havoc as a result of the coronavirus pandemic has been a certainty for some time. But as record unemployment numbers have trickled in from the United States and Europe, the scale of the wreckage in South Africa and other developing countries has been obscured by a lack of quantitative data. Until now.
+
+
+
+The first estimates of Covid-19’s affect on employment and welfare outcomes are laid out in a set of research papers into data collected during the National Income Dynamics Study – Coronavirus Rapid Mobile Survey (Nids-Cram), released today. The data paints a devastating picture.
+
+
+
+The world Covid-19 is making
+
+
+
+Two of the social thorns deepest in South Africa’s side – poverty and inequality – have complex causes. The availability of work, however, has been shown to be the main culprit. With restrictions on mobility and business activity as its bedrock, the government’s lockdown was always going to have far-reaching ramifications for the labour market, poverty and inequality.
+
+
+
+The research shows that Covid-19 is changing the world of work as we know it. Indeed, Nids-Cram researchers had to redefine unemployment to fully make sense of the data. The old categories just don’t work under current conditions.
+
+
+Related article:
+ Unemployment in South Africa is worse than you think
+
+
+
+The decreases in employment revealed in the data are unprecedented, even by South African standards. Around three million jobs have been lost as a result of Covid-19. One research paper shows that about one in five workers lost their job for good after the lockdown began. If South Africa’s workforce in February was counted on your left hand, it took less than a month of lockdown to chop off the index finger. 
+
+
+
+Another paper shows that when more temporary forms of job loss such as furlough are counted, that number jumps up to almost one in every three people who, while working in February, were either without a job or without a wage by May.
+
+
+
+The world Covid-19 is deepening
+
+
+
+Even as Covid-19 is cleaving the fissures of a new economic world, the Nids-Cram research shows that it has deepened persistent features of the old one, too. Up to 30% of those who lost their jobs – around a million people – have fallen into poverty, for instance. When their dependents are considered, the lockdown has pushed more than three million people into poverty.
+
+
+
+It is also becoming clear that the coronavirus is a gendered pandemic. The burdens of previous economic and healthcare crises have fallen disproportionately on the shoulders of women. Despite greater job losses among men in the immediate aftermath of the 2008 financial crash, cutbacks in public services devastated unpaid work, where women predominate. Similar caregiving responsibilities, coupled with a lack of political representation, meant that Ebola had an undue effect on women when it ravaged West Africa during the mid-2010s.
+
+
+
+The Nids-Cram research suggests that Covid-19 will be no different. With children out of school and the elderly being the most vulnerable to the virus, the unpaid care economy has come into sharp focus. While women have taken up most of those responsibilities, they have also been unevenly affected by the changes in the labour market. The research shows that two in every three jobs lost to the coronavirus belonged to women. Among those who managed to hold on to their jobs, women lost more hours than men, while their earnings declined by twice as much.
+
+
+
+
+
+
+
+Inequality in job losses
+
+
+
+
+
+
+  var ctx = document.getElementById('job-loss-comp').getContext('2d');
+  var chart = new Chart(ctx, {
+    // The type of chart we want to create
+    type: 'bar',
+    // The data for our dataset
+    data: {
+      labels: ['Men', 'Women', 'Professionals', 'Manual workers', 'Richest 25%', 'Poorest 50%', ],
+      datasets: [{
+        label: 'Job loss', 
+        backgroundColor: '#8f0c00',
+        borderColor: '#8f0c00',
+        data: [11, 26, 5, 24, 8, 30],
+      }, {
+        label: 'Furlough',
+        backgroundColor: '#bb7666',
+        borderColor: '#bb7666',
+        data: [9, 8, 7, 11, 7, 9],
+      }]  
+    },
+    // Configuration options go here
+    options: { 
+      responsive: true, 
+      aspectRatio: 2, 
+      scales: {
+	xAxes: [{
+	  stacked: true,
+	}],
+	yAxes: [{
+	  stacked: true
+	}]
+      }
+    }
+  });
+
+
+
+
+Source: R Jain, J Budlender, R Zizzamia, and I Bassier (2020)
+
+
+
+
+There have been similar racial inequalities. Black workers stood up to a 43% chance of losing their job after lockdown compared with 17% for white workers.
+
+
+
+The research also reveals a direct correlation between what people earned before the lockdown and their economic insecurity as a result of the lockdown. If 100 people who were earning less than R3 000 before lockdown were to walk past you today, more than half of them – at least 54 – would have lost their jobs. If 100 people who were earning more than R24 000 before the lockdown were to do the same, only 10 of them would now be without work.
+
+
+
+
+  #geo-dist-emp-loss {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: stretch;
+    width: 100%;
+  }
+  #geo-dist-emp-loss #legend {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 30%;
+    flex-basis: 30%;
+    border-right: 1px solid #cccccb;
+  }
+  #geo-dist-emp-loss #legend #key {
+    flex-grow: 1;
+    margin-top: 4px;
+  }
+  #geo-dist-emp-loss #legend span {
+    padding: 8px 0;
+  }
+  #geo-dist-emp-loss #geo-dist-emp-loss-map {
+    width: 70%;
+    flex-basis: 70%;
+  }
+  #geo-dist-emp-loss label {
+    display: block;
+    height: 40px;
+    padding-bottom: 16px;
+  }
+  #geo-dist-emp-loss input[type="checkbox"] {
+    width: 40px; 
+    height: 40px;
+    margin: 0 4px -16px 0; 
+    border: none;
+    border-radius: 0;
+    appearance: none;
+    -webkit-appearance: none;
+    cursor: pointer;
+  }
+  #geo-dist-emp-loss-map {
+    text-align: center;
+  }
+  #geo-dist-emp-loss-map svg {
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  #geo-dist-emp-loss-map polygon, #geo-dist-emp-loss-map path {
+    stroke: #0f171b;
+    stroke-linejoin: bevel;
+  }    
+  .cls-1 {
+    fill: #e0bcb6;
+  }
+  .cls-2 {
+    fill: #cb9589;
+  }
+  .cls-3 {
+    fill: #bb7666;
+  }
+  .cls-4 {
+    fill: #ab5949;
+  }
+  .cls-5 {
+    fill: #9c3b2f;
+  }
+  .cls-6 {
+    fill: #8e191c;
+  }
+  #geo-dist-emp-loss-map [class*="cls-"].inactive-map {
+    fill: #fffffc;
+  }
+  @media screen and (max-width: 768px) {
+    #geo-dist-emp-loss {
+      flex-direction: column;
+    }
+    #geo-dist-emp-loss #legend {
+      width: 100%;
+      flex-basis: 100%;
+      margin-bottom: 4px;
+      border-right: none;
+      border-bottom: 1px solid #cccccb;
+    }
+    #geo-dist-emp-loss #key:before,
+    #geo-dist-emp-loss #key:after {
+      content:'';
+      display: table;
+      clear: both;
+    }
+    #geo-dist-emp-loss label {
+      display: inline;
+      float: left;
+      width: 50%;
+      padding-bottom: 5px;
+    }
+    #geo-dist-emp-loss input[type="checkbox"] {
+      width: 20px;
+      height: 20px;
+      margin-bottom: -5px;
+    }
+    #geo-dist-emp-loss-map svg {
+      width: 100%;
+      max-width: none;
+      margin: 0;
+    }
+  }
+
+
+  
+    Declines in employment have been worst in labour-sending, rural zones  
+    
+      
+        
+          
+            % decrease in working employed
+            
+              50–54
+              46–50
+              41–46
+              37–41
+              33–37
+              29–33
+            
+            Note: Figure shows the net employment decrease as a percent of those employed in February across South Africa’s provinces and metropolitan areas.
+          
+          
+            
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+              
+            
+          
+        
+      
+    
+  
+  Source: R Jain, J Budlender, R Zizzamia, and I Bassier (2020)
+
+  
+  jQuery("#cls-6").click(function() {
+    jQuery(".cls-6").each(function() {
+      jQuery(this).toggleClass("inactive-map");
+    });
+  });
+  jQuery("#cls-5").click(function() {
+    jQuery(".cls-5").toggleClass("inactive-map");
+  });
+  jQuery("#cls-4").click(function() {
+    jQuery(".cls-4").toggleClass("inactive-map");
+  });
+  jQuery("#cls-3").click(function() {
+    jQuery(".cls-3").toggleClass("inactive-map");
+  });
+  jQuery("#cls-2").click(function() {
+    jQuery(".cls-2").toggleClass("inactive-map");
+  });
+  jQuery("#cls-1").click(function() {
+    jQuery(".cls-1").toggleClass("inactive-map");
+  });
+ 
+
+
+
+The state of the state
+
+
+
+The unequal experience of Covid-19 has put to bed early suggestions that the coronavirus would not discriminate. A recent report by the United Nations’ Special Rapporteur on extreme poverty and human rights said, “Far from being the ‘great leveller’, Covid-19 is a pandemic of poverty, exposing the parlous state of social safety nets for those on lower incomes or in poverty.”
+
+
+
+Nids-Cram data sets out an indictment of the government’s efforts so far to lessen the economic shock during the initial phase of the lockdown.
+
+
+Related article:
+ Slow rollout undermines Covid-19 social grant
+
+
+
+The Temporary Employee/Employer Relief Scheme benefitted only one in every five of the temporarily unemployed workers it was designed to protect. And while there is no data available yet on the impact of the expansion of social grants, there is data available on what might have happened had they been increased earlier. If social grants were raised from the beginning rather than the end of April, the increase in poverty resulting from job losses could have been mitigated by up to 40%.
+
+
+
+Failures in social protection, the UN has warned, when taken together with pressures to promote fiscal consolidation and possible austerity in the wake of the coronavirus, may accelerate the “transfer of economic and political power to the wealthy elites”, and result in global poverty that “will be even more politically unsustainable and explosive”.
+If you want to republish this article please read our guidelines.Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)Share this:Click to share on Twitter (Opens in new window)Click to share on Facebook (Opens in new window)Click to share on WhatsApp (Opens in new window)Click to email this to a friend (Opens in new window)
